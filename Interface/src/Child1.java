@@ -1,0 +1,15 @@
+//blueprint of any class is knowm as interface
+//public lago overridde karo
+//STATIC
+interface My {
+	static void show() {
+		System.out.println("Show from my interface");
+	}
+}
+class Child1 implements My{
+	public static void main(String[] args) {
+		My.show();
+
+	}
+
+}

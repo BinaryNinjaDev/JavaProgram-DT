@@ -1,0 +1,13 @@
+//New Program
+class StringDemo6 {
+	String str;
+	student(Student str){
+		this.str=str;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

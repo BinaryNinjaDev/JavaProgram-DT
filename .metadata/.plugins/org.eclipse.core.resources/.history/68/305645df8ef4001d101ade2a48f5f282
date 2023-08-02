@@ -1,0 +1,22 @@
+package javaFirstApp;
+
+class CircleAreaCalculator {
+	float pi = 3.14f;
+
+	public void getCircleArea(int r) {
+		float result = r * r * pi;
+
+	}
+}
+
+public class Firstapp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CircleAreaCalculator cac = new circleAreaCalculator();
+		cac.getCircleArea(9);
+		// cac.dispResult();
+
+	}
+
+}

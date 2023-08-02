@@ -1,0 +1,18 @@
+//NON-STATIC
+interface My {
+	default void show() {
+		System.out.println("Show from interface");
+	}
+}
+class Child2 implements My{
+	public void show() {
+		System.out.println("Show from child2");
+	}
+
+	public static void main(String[] args) {
+		My m = new Child2();
+		m.show();
+
+	}
+
+}
